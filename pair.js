@@ -81,7 +81,7 @@ router.get('/', async (req, res) => {
 
                     // Send session data
                     await Pair_Code_By_Ibrahim_Adams.sendMessage(Pair_Code_By_Ibrahim_Adams.user.id, {
-                        text: + b64data
+                        text: b64data
                     }, { quoted: {
                      key: {
                 fromMe: false,
